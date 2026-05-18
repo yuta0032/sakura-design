@@ -6,128 +6,127 @@
 <title>さくらデザイン | SAKURA DESIGN - ホームページ制作・WEBデザイン（岡山）</title>
 <meta name="description" content="岡山のさくらデザイン（SAKURA DESIGN）。ホームページ制作・管理、WEBデザイン、ドメイン取得まで。先進的でシンプルなWEB制作をお届けします。">
 <style>
-  :root{
-    --bg:#0b1020;
-    --bg2:#111935;
-    --fg:#e9ecf5;
-    --muted:#9aa3bf;
-    --accent:#ff6f9c;
-    --accent2:#7ad0ff;
-    --card:rgba(255,255,255,0.04);
-    --border:rgba(255,255,255,0.10);
-    --radius:14px;
-    --maxw:1100px;
-  }
-  *{box-sizing:border-box}
-  html,body{margin:0;padding:0}
-  body{
-    font-family:"Inter","Helvetica Neue","Hiragino Kaku Gothic ProN","Noto Sans JP",sans-serif;
-    color:var(--fg);
-    background:
-      radial-gradient(1200px 600px at 80% -10%, rgba(255,111,156,0.20), transparent 60%),
-      radial-gradient(900px 500px at -10% 20%, rgba(122,208,255,0.15), transparent 60%),
-      linear-gradient(180deg,var(--bg),var(--bg2));
-    line-height:1.7;
-    -webkit-font-smoothing:antialiased;
-  }
-  a{color:var(--accent2);text-decoration:none}
-  a:hover{opacity:.85}
-  .container{max-width:var(--maxw);margin:0 auto;padding:0 24px}
+:root{
+  --bg:#0d1224;
+  --bg2:#141a32;
+  --fg:#e9ecf5;
+  --muted:#9aa3bf;
+  --accent:#e87aa3;
+  --accent2:#7ad0ff;
+  --card:rgba(255,255,255,0.04);
+  --border:rgba(255,255,255,0.10);
+  --radius:14px;
+  --maxw:1100px;
+}
+*{box-sizing:border-box}
+html,body{margin:0;padding:0}
+body{
+  font-family:"Inter","Helvetica Neue","Hiragino Kaku Gothic ProN","Noto Sans JP",sans-serif;
+  color:var(--fg);
+  background:
+    radial-gradient(1000px 500px at 80% -10%, rgba(232,122,163,0.10), transparent 60%),
+    radial-gradient(800px 450px at -10% 20%, rgba(122,208,255,0.08), transparent 60%),
+    linear-gradient(180deg,var(--bg),var(--bg2));
+  line-height:1.7;
+  -webkit-font-smoothing:antialiased;
+}
+a{color:var(--accent2);text-decoration:none}
+a:hover{opacity:.85}
+.container{max-width:var(--maxw);margin:0 auto;padding:0 24px}
 
-  header{
-    position:sticky;top:0;z-index:10;
-    backdrop-filter:saturate(140%) blur(10px);
-    background:rgba(11,16,32,0.6);
-    border-bottom:1px solid var(--border);
-  }
-  .nav{display:flex;align-items:center;justify-content:space-between;height:64px}
-  .brand{display:flex;align-items:center;gap:10px;font-weight:700;letter-spacing:.04em}
-  .brand .dot{width:10px;height:10px;border-radius:50%;background:linear-gradient(135deg,var(--accent),var(--accent2))}
-  .brand small{display:block;color:var(--muted);font-weight:500;letter-spacing:.18em;font-size:11px}
-  nav ul{display:flex;gap:22px;list-style:none;margin:0;padding:0}
-  nav a{color:var(--fg);font-size:14px}
-  @media(max-width:640px){nav ul{display:none}}
+header{
+  position:sticky;top:0;z-index:10;
+  backdrop-filter:saturate(140%) blur(10px);
+  background:rgba(13,18,36,0.6);
+  border-bottom:1px solid var(--border);
+}
+.nav{display:flex;align-items:center;justify-content:space-between;height:64px}
+.brand{display:flex;align-items:center;gap:10px;font-weight:700;letter-spacing:.04em}
+.brand .dot{width:10px;height:10px;border-radius:50%;background:linear-gradient(135deg,var(--accent),var(--accent2))}
+.brand small{display:block;color:var(--muted);font-weight:500;letter-spacing:.18em;font-size:11px}
+nav ul{display:flex;gap:22px;list-style:none;margin:0;padding:0}
+nav a{color:var(--fg);font-size:14px}
+@media(max-width:640px){nav ul{display:none}}
 
-  .hero{padding:96px 0 72px}
-  .eyebrow{display:inline-block;font-size:12px;letter-spacing:.2em;color:var(--accent);border:1px solid rgba(255,111,156,.4);padding:6px 12px;border-radius:999px;margin-bottom:20px}
-  .hero h1{
-    font-size:clamp(32px,5.5vw,56px);
-    line-height:1.2;margin:0 0 18px;letter-spacing:.01em;
-    background:linear-gradient(180deg,#fff,#cfd6ee);
-    -webkit-background-clip:text;background-clip:text;color:transparent;
-  }
-  .hero p.lead{font-size:clamp(15px,2.2vw,18px);color:var(--muted);max-width:680px;margin:0 0 28px}
-  .cta{display:flex;gap:12px;flex-wrap:wrap}
-  .btn{display:inline-block;padding:13px 22px;border-radius:999px;font-weight:600;font-size:14px;transition:transform .15s ease}
-  .btn:hover{transform:translateY(-1px)}
-  .btn-primary{background:linear-gradient(135deg,var(--accent),#ff97b8);color:#1a0a14}
-  .btn-ghost{border:1px solid var(--border);color:var(--fg)}
+.hero{padding:96px 0 72px}
+.eyebrow{display:inline-block;font-size:12px;letter-spacing:.2em;color:var(--accent);border:1px solid rgba(232,122,163,.4);padding:6px 12px;border-radius:999px;margin-bottom:20px}
+.hero h1{
+  font-size:clamp(32px,5.5vw,56px);
+  line-height:1.2;margin:0 0 18px;letter-spacing:.01em;
+  background:linear-gradient(180deg,#fff,#cfd6ee);
+  -webkit-background-clip:text;background-clip:text;color:transparent;
+}
+.hero p.lead{font-size:clamp(15px,2.2vw,18px);color:var(--muted);max-width:680px;margin:0 0 28px}
+.cta{display:flex;gap:12px;flex-wrap:wrap}
+.btn{display:inline-block;padding:13px 22px;border-radius:999px;font-weight:600;font-size:14px;transition:transform .15s ease}
+.btn:hover{transform:translateY(-1px)}
+.btn-primary{background:linear-gradient(135deg,#e87aa3,#f0a3c0);color:#1a0a14}
+.btn-ghost{border:1px solid var(--border);color:var(--fg)}
 
-  section{padding:72px 0;border-top:1px solid var(--border)}
-  h2{font-size:clamp(22px,3.4vw,30px);margin:0 0 8px}
-  .section-sub{color:var(--muted);margin:0 0 36px;font-size:14px;letter-spacing:.12em}
+section{padding:72px 0;border-top:1px solid var(--border)}
+h2{font-size:clamp(22px,3.4vw,30px);margin:0 0 8px}
+.section-sub{color:var(--muted);margin:0 0 36px;font-size:14px;letter-spacing:.12em}
 
-  .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:18px}
-  .card{
-    background:var(--card);border:1px solid var(--border);border-radius:var(--radius);
-    padding:24px;transition:border-color .2s ease, transform .2s ease;
-  }
-  .card:hover{border-color:rgba(255,111,156,.5);transform:translateY(-2px)}
-  .card h3{margin:0 0 8px;font-size:18px}
-  .card p{margin:0;color:var(--muted);font-size:14px}
-  .icon{
-    width:40px;height:40px;border-radius:10px;
-    background:linear-gradient(135deg,rgba(255,111,156,.25),rgba(122,208,255,.25));
-    display:grid;place-items:center;margin-bottom:14px;font-size:18px;
-  }
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:18px}
+.card{
+  background:var(--card);border:1px solid var(--border);border-radius:var(--radius);
+  padding:24px;transition:border-color .2s ease, transform .2s ease;
+}
+.card:hover{border-color:rgba(232,122,163,.5);transform:translateY(-2px)}
+.card h3{margin:0 0 8px;font-size:18px}
+.card p{margin:0;color:var(--muted);font-size:14px}
+.icon{
+  width:40px;height:40px;border-radius:10px;
+  background:linear-gradient(135deg,rgba(232,122,163,.25),rgba(122,208,255,.25));
+  display:grid;place-items:center;margin-bottom:14px;font-size:18px;
+}
 
-  .about{display:grid;grid-template-columns:1.2fr .8fr;gap:32px;align-items:center}
-  @media(max-width:768px){.about{grid-template-columns:1fr}}
-  .about p{color:var(--muted)}
-  .badge{
-    display:inline-flex;align-items:center;gap:8px;
-    padding:8px 12px;border:1px solid var(--border);border-radius:999px;
-    font-size:12px;color:var(--muted);margin:6px 8px 0 0;
-  }
+.about{display:grid;grid-template-columns:1.2fr .8fr;gap:32px;align-items:center}
+@media(max-width:768px){.about{grid-template-columns:1fr}}
+.about p{color:var(--muted)}
+.badge{
+  display:inline-flex;align-items:center;gap:8px;
+  padding:8px 12px;border:1px solid var(--border);border-radius:999px;
+  font-size:12px;color:var(--muted);margin:6px 8px 0 0;
+}
 
-  .contact-grid{display:grid;grid-template-columns:1fr 1fr;gap:24px;align-items:center}
-  @media(max-width:768px){.contact-grid{grid-template-columns:1fr}}
-  .contact-card{background:var(--card);border:1px solid var(--border);border-radius:var(--radius);padding:28px}
-  .contact-card h3{margin:0 0 10px;font-size:18px}
-  .mail{font-size:18px;font-weight:600;word-break:break-all}
-  .qr{display:flex;flex-direction:column;align-items:center;justify-content:center;gap:10px}
-  .qr img.qr-code{width:200px;height:200px;background:#fff;border-radius:12px;padding:10px}
-  .qr small{color:var(--muted)}
-  .line-btn{display:inline-flex;align-items:center;justify-content:center;margin-top:4px;background:transparent;border:none;padding:0;line-height:0;transition:opacity .15s ease}
-  .line-btn:hover{opacity:.85}
-  .line-btn img{height:36px;width:auto;display:block;background:transparent;padding:0;border-radius:0}
+.contact-grid{display:grid;grid-template-columns:1fr 1fr;gap:24px;align-items:stretch}
+@media(max-width:768px){.contact-grid{grid-template-columns:1fr}}
+.contact-card{background:var(--card);border:1px solid var(--border);border-radius:var(--radius);padding:28px;display:flex;flex-direction:column;justify-content:center}
+.contact-card h3{margin:0 0 10px;font-size:18px}
+.mail{font-size:18px;font-weight:600;word-break:break-all}
+.qr{align-items:center;gap:10px}
+.qr img.qr-code{width:140px;height:140px;background:#fff;border-radius:12px;padding:8px}
+.qr small{color:var(--muted)}
+.line-btn{display:inline-flex;align-items:center;justify-content:center;margin-top:4px;background:transparent;border:none;padding:0;line-height:0;transition:opacity .15s ease}
+.line-btn:hover{opacity:.85}
+.line-btn img{height:36px;width:auto;display:block;background:transparent;padding:0;border-radius:0}
 
-  /* Pricing */
-  .pricing-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:18px}
-  .price-card{background:var(--card);border:1px solid var(--border);border-radius:var(--radius);padding:28px;display:flex;flex-direction:column;gap:10px;transition:border-color .2s ease, transform .2s ease}
-  .price-card:hover{border-color:rgba(255,111,156,.5);transform:translateY(-2px)}
-  .price-card .label{font-size:12px;letter-spacing:.16em;color:var(--accent);text-transform:uppercase}
-  .price-card .name{font-size:18px;font-weight:700;margin:0}
-  .price-card .price{font-size:clamp(28px,4vw,34px);font-weight:700;letter-spacing:.01em;background:linear-gradient(180deg,#fff,#cfd6ee);-webkit-background-clip:text;background-clip:text;color:transparent;margin:4px 0 0}
-  .price-card .unit{font-size:13px;color:var(--muted);font-weight:500;margin-left:4px}
-  .price-card .desc{margin:6px 0 0;color:var(--muted);font-size:13px;line-height:1.7}
-  .price-card.featured{border-color:rgba(255,111,156,.55);background:linear-gradient(180deg,rgba(255,111,156,.07),rgba(255,255,255,.02))}
-  .price-note{margin-top:24px;color:var(--muted);font-size:13px}
+/* Pricing */
+.pricing-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:18px}
+.price-card{background:var(--card);border:1px solid var(--border);border-radius:var(--radius);padding:28px;display:flex;flex-direction:column;gap:10px;transition:border-color .2s ease, transform .2s ease}
+.price-card:hover{border-color:rgba(232,122,163,.5);transform:translateY(-2px)}
+.price-card .label{font-size:12px;letter-spacing:.16em;color:var(--accent);text-transform:uppercase}
+.price-card .name{font-size:18px;font-weight:700;margin:0}
+.price-card .price{font-size:clamp(28px,4vw,34px);font-weight:700;letter-spacing:.01em;background:linear-gradient(180deg,#fff,#cfd6ee);-webkit-background-clip:text;background-clip:text;color:transparent;margin:4px 0 0}
+.price-card .unit{font-size:13px;color:var(--muted);font-weight:500;margin-left:4px}
+.price-card .desc{margin:6px 0 0;color:var(--muted);font-size:13px;line-height:1.7}
+.price-note{margin-top:24px;color:var(--muted);font-size:13px}
 
-  /* Works */
-  .works-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:18px}
-  .work-card{background:var(--card);border:1px solid var(--border);border-radius:var(--radius);overflow:hidden;display:flex;flex-direction:column;text-decoration:none;color:var(--fg);transition:border-color .2s ease, transform .2s ease}
-  .work-card:hover{border-color:rgba(255,111,156,.5);transform:translateY(-2px);opacity:1}
-  .work-card .thumb{position:relative;aspect-ratio:16/9;background:#0d1530;overflow:hidden}
-  .work-card .thumb img{width:100%;height:100%;object-fit:cover;display:block;transition:transform .4s ease}
-  .work-card:hover .thumb img{transform:scale(1.03)}
-  .work-card .work-body{padding:22px 24px 24px;display:flex;flex-direction:column;gap:6px}
-  .work-card .work-label{font-size:11px;letter-spacing:.2em;color:var(--accent);text-transform:uppercase}
-  .work-card .work-name{font-size:18px;font-weight:700;margin:0}
-  .work-card .work-url{font-size:13px;color:var(--accent2);word-break:break-all}
-  .work-card .work-desc{margin:6px 0 0;color:var(--muted);font-size:14px;line-height:1.7}
+/* Works */
+.works-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:18px}
+.work-card{background:var(--card);border:1px solid var(--border);border-radius:var(--radius);overflow:hidden;display:flex;flex-direction:column;text-decoration:none;color:var(--fg);transition:border-color .2s ease, transform .2s ease}
+.work-card:hover{border-color:rgba(232,122,163,.5);transform:translateY(-2px);opacity:1}
+.work-card .thumb{position:relative;aspect-ratio:16/9;background:#0d1530;overflow:hidden}
+.work-card .thumb img{width:100%;height:100%;object-fit:cover;display:block;transition:transform .4s ease}
+.work-card:hover .thumb img{transform:scale(1.03)}
+.work-card .work-body{padding:22px 24px 24px;display:flex;flex-direction:column;gap:6px}
+.work-card .work-label{font-size:11px;letter-spacing:.2em;color:var(--accent);text-transform:uppercase}
+.work-card .work-name{font-size:18px;font-weight:700;margin:0}
+.work-card .work-url{font-size:13px;color:var(--accent2);word-break:break-all}
+.work-card .work-desc{margin:6px 0 0;color:var(--muted);font-size:14px;line-height:1.7}
 
-  footer{padding:32px 0 56px;color:var(--muted);font-size:13px;text-align:center;border-top:1px solid var(--border)}
+footer{padding:32px 0 56px;color:var(--muted);font-size:13px;text-align:center;border-top:1px solid var(--border)}
 </style>
 </head>
 <body>
@@ -155,138 +154,138 @@
 
 <main>
 
-  <section class="hero">
-    <div class="container">
-      <span class="eyebrow">WEB DESIGN ・ SITE BUILD ・ DOMAIN</span>
-      <h1>シンプルで、伝わる。<br>あなたのビジネスに、洗練されたWebを。</h1>
-      <p class="lead">さくらデザインは、岡山を拠点にホームページ制作・管理とWEBデザインを行うWeb制作スタジオです。先進的でモダン、そして長く使えるサイトをお届けします。</p>
-      <div class="cta">
-        <a class="btn btn-primary" href="#contact">お問い合わせ</a>
-        <a class="btn btn-ghost" href="#services">サービスを見る</a>
-      </div>
+<section class="hero">
+  <div class="container">
+    <span class="eyebrow">WEB DESIGN ・ SITE BUILD ・ DOMAIN</span>
+    <h1>シンプルで、伝わる。<br>あなたのビジネスに、洗練されたWebを。</h1>
+    <p class="lead">さくらデザインは、岡山を拠点にホームページ制作・管理とWEBデザインを行うWeb制作スタジオです。先進的でモダン、そして長く使えるサイトをお届けします。</p>
+    <div class="cta">
+      <a class="btn btn-primary" href="#contact">お問い合わせ</a>
+      <a class="btn btn-ghost" href="#services">サービスを見る</a>
     </div>
-  </section>
+  </div>
+</section>
 
-  <section id="services">
-    <div class="container">
-      <h2>Services</h2>
-      <p class="section-sub">提供サービス</p>
-      <div class="grid">
-        <div class="card">
-          <div class="icon">🖥️</div>
-          <h3>WEBサイト制作</h3>
-          <p>コーポレートサイト、ランディングページ、ポートフォリオまで。デザインから実装まで一貫してお任せください。</p>
-        </div>
-        <div class="card">
-          <div class="icon">🌐</div>
-          <h3>ドメイン取得</h3>
-          <p>独自ドメインの取得・設定をサポート。サイトに最適なドメインのご提案から、運用開始まで丁寧にご案内します。</p>
-        </div>
-        <div class="card">
-          <div class="icon">🛠️</div>
-          <h3>サイト管理・運用</h3>
-          <p>公開後の更新・保守・改善まで継続サポート。常に最新で安全な状態を保ちます。</p>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <section id="works">
-    <div class="container">
-      <h2>Works</h2>
-      <p class="section-sub">制作実績</p>
-      <div class="works-grid">
-        <a class="work-card" href="https://roijir.pages.dev/" target="_blank" rel="noopener">
-          <div class="thumb"><img src="roijir.jpg" alt="roijir（ロイジー）サイトのスクリーンショット" loading="lazy"></div>
-          <div class="work-body">
-            <span class="work-label">Hair Salon</span>
-            <p class="work-name">roijir（ロイジー）</p>
-            <span class="work-url">roijir.pages.dev</span>
-            <p class="work-desc">岡山・清心町のヘアサロン。髪質改善・縮毛矯正・ヘッドスパを提供する小型サロンの公式サイトを制作しました。</p>
-          </div>
-        </a>
-        <a class="work-card" href="https://tagoclinic.or.jp/" target="_blank" rel="noopener">
-          <div class="thumb"><img src="tagoclinic.jpg" alt="多胡クリニックサイトのスクリーンショット" loading="lazy"></div>
-          <div class="work-body">
-            <span class="work-label">Clinic</span>
-            <p class="work-name">多胡クリニック</p>
-            <span class="work-url">tagoclinic.or.jp</span>
-            <p class="work-desc">岡山県津山市の医療機関。外科・整形外科・内科・リハビリ科などを担う、日曜診療対応のクリニックの公式サイトを制作しました。</p>
-          </div>
-        </a>
-      </div>
-    </div>
-  </section>
-
-  <section id="pricing">
-    <div class="container">
-      <h2>Pricing</h2>
-      <p class="section-sub">料金案内</p>
-      <div class="pricing-grid">
-        <div class="price-card featured">
-          <span class="label">Web Site</span>
-          <p class="name">ホームページ制作</p>
-          <p class="price">¥33,000<span class="unit">〜 / 一式</span></p>
-          <p class="desc">企画・デザイン・コーディング・公開設定までを含む基本プランです。シンプルな1ページサイトを想定しています。</p>
-        </div>
-        <div class="price-card">
-          <span class="label">Maintenance</span>
-          <p class="name">運用・保守</p>
-          <p class="price">¥3,300<span class="unit">/ 月</span></p>
-          <p class="desc">サイトの監視、軽微な修正対応など。サーバー代・ドメイン管理料・更新料は別途実費となります。</p>
-        </div>
-        <div class="price-card">
-          <span class="label">Option</span>
-          <p class="name">ドメイン取得代行</p>
-          <p class="price">¥11,000<span class="unit">/ 1ドメイン</span></p>
-          <p class="desc">独自ドメインの選定・取得・初期設定を代行します。年間の更新料は別途実費となります。</p>
-        </div>
-      </div>
-      <p class="price-note">※ 表示価格はすべて税込です。サイト規模・ご要望によりお見積りいたしますので、まずはお気軽にご相談ください。</p>
-    </div>
-  </section>
-
-  <section id="about">
-    <div class="container about">
-      <div>
-        <h2>About</h2>
-        <p class="section-sub">さくらデザインについて</p>
-        <p>「シンプルで、伝わる」をモットーに、IT系のスマートさと、見る人にやさしいデザインを両立したWebサイトを制作しています。中小事業者・個人事業主の方の、はじめてのホームページから、リニューアルまでお気軽にご相談ください。</p>
-        <div>
-          <span class="badge">先進的</span>
-          <span class="badge">モダン</span>
-          <span class="badge">シンプル</span>
-          <span class="badge">レスポンシブ対応</span>
-        </div>
+<section id="services">
+  <div class="container">
+    <h2>Services</h2>
+    <p class="section-sub">提供サービス</p>
+    <div class="grid">
+      <div class="card">
+        <div class="icon">🖥️</div>
+        <h3>WEBサイト制作</h3>
+        <p>コーポレートサイト、ランディングページ、ポートフォリオまで。デザインから実装まで一貫してお任せください。</p>
       </div>
       <div class="card">
-        <h3>制作の流れ</h3>
-        <p>1. ヒアリング<br>2. ご提案・お見積り<br>3. デザイン・制作<br>4. 公開・運用サポート</p>
+        <div class="icon">🌐</div>
+        <h3>ドメイン取得</h3>
+        <p>独自ドメインの取得・設定をサポート。サイトに最適なドメインのご提案から、運用開始まで丁寧にご案内します。</p>
+      </div>
+      <div class="card">
+        <div class="icon">🛠️</div>
+        <h3>サイト管理・運用</h3>
+        <p>公開後の更新・保守・改善まで継続サポート。常に最新で安全な状態を保ちます。</p>
       </div>
     </div>
-  </section>
+  </div>
+</section>
 
-  <section id="contact">
-    <div class="container">
-      <h2>Contact</h2>
-      <p class="section-sub">お問い合わせ</p>
-      <div class="contact-grid">
-        <div class="contact-card">
-          <h3>メールでのお問い合わせ</h3>
-          <p>制作のご相談・お見積りはお気軽にどうぞ。</p>
-          <p class="mail"><a href="mailto:sakura.design.okayama@gmail.com">sakura.design.okayama@gmail.com</a></p>
+<section id="works">
+  <div class="container">
+    <h2>Works</h2>
+    <p class="section-sub">制作実績</p>
+    <div class="works-grid">
+      <a class="work-card" href="https://roijir.pages.dev/" target="_blank" rel="noopener">
+        <div class="thumb"><img src="roijir.jpg" alt="roijir（ロイジー）サイトのスクリーンショット" loading="lazy"></div>
+        <div class="work-body">
+          <span class="work-label">Hair Salon</span>
+          <p class="work-name">roijir（ロイジー）</p>
+          <span class="work-url">roijir.pages.dev</span>
+          <p class="work-desc">岡山・清心町のヘアサロン。髪質改善・縮毛矯正・ヘッドスパを提供する小型サロンの公式サイトを制作しました。</p>
         </div>
-        <div class="contact-card qr">
-          <h3>LINEでお問い合わせ</h3>
-          <img class="qr-code" src="https://qr-official.line.me/gs/M_070jcaxt_GW.png?oat_content=qr" alt="さくらデザイン LINE公式アカウント QRコード">
-          <small>QRコードを読み取って友だち追加</small>
-          <a class="line-btn" href="https://lin.ee/VXOsfgn" target="_blank" rel="noopener">
-            <img src="https://scdn.line-apps.com/n/line_add_friends/btn/ja.png" alt="友だち追加" height="36" border="0">
-          </a>
+      </a>
+      <a class="work-card" href="https://tagoclinic.or.jp/" target="_blank" rel="noopener">
+        <div class="thumb"><img src="tagoclinic.jpg" alt="多胡クリニックサイトのスクリーンショット" loading="lazy"></div>
+        <div class="work-body">
+          <span class="work-label">Clinic</span>
+          <p class="work-name">多胡クリニック</p>
+          <span class="work-url">tagoclinic.or.jp</span>
+          <p class="work-desc">岡山県津山市の医療機関。外科・整形外科・内科・リハビリ科などを担う、日曜診療対応のクリニックの公式サイトを制作しました。</p>
         </div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<section id="pricing">
+  <div class="container">
+    <h2>Pricing</h2>
+    <p class="section-sub">料金案内</p>
+    <div class="pricing-grid">
+      <div class="price-card">
+        <span class="label">Web Site</span>
+        <p class="name">ホームページ制作</p>
+        <p class="price">¥33,000<span class="unit">〜 / 一式</span></p>
+        <p class="desc">企画・デザイン・コーディング・公開設定までを含む基本プランです。シンプルな1ページサイトを想定しています。</p>
+      </div>
+      <div class="price-card">
+        <span class="label">Maintenance</span>
+        <p class="name">運用・保守</p>
+        <p class="price">¥3,300<span class="unit">/ 月</span></p>
+        <p class="desc">サイトの監視、軽微な修正対応など。サーバー代・ドメイン管理料・更新料は別途実費となります。</p>
+      </div>
+      <div class="price-card">
+        <span class="label">Option</span>
+        <p class="name">ドメイン取得代行</p>
+        <p class="price">¥11,000<span class="unit">/ 1ドメイン</span></p>
+        <p class="desc">独自ドメインの選定・取得・初期設定を代行します。年間の更新料は別途実費となります。</p>
       </div>
     </div>
-  </section>
+    <p class="price-note">※ 表示価格はすべて税込です。サイト規模・ご要望によりお見積りいたしますので、まずはお気軽にご相談ください。</p>
+  </div>
+</section>
+
+<section id="about">
+  <div class="container about">
+    <div>
+      <h2>About</h2>
+      <p class="section-sub">さくらデザインについて</p>
+      <p>「シンプルで、伝わる」をモットーに、IT系のスマートさと、見る人にやさしいデザインを両立したWebサイトを制作しています。中小事業者・個人事業主の方の、はじめてのホームページから、リニューアルまでお気軽にご相談ください。</p>
+      <div>
+        <span class="badge">先進的</span>
+        <span class="badge">モダン</span>
+        <span class="badge">シンプル</span>
+        <span class="badge">レスポンシブ対応</span>
+      </div>
+    </div>
+    <div class="card">
+      <h3>制作の流れ</h3>
+      <p>1. ヒアリング<br>2. ご提案・お見積り<br>3. デザイン・制作<br>4. 公開・運用サポート</p>
+    </div>
+  </div>
+</section>
+
+<section id="contact">
+  <div class="container">
+    <h2>Contact</h2>
+    <p class="section-sub">お問い合わせ</p>
+    <div class="contact-grid">
+      <div class="contact-card">
+        <h3>メールでのお問い合わせ</h3>
+        <p>制作のご相談・お見積りはお気軽にどうぞ。</p>
+        <p class="mail"><a href="mailto:sakura.design.okayama@gmail.com">sakura.design.okayama@gmail.com</a></p>
+      </div>
+      <div class="contact-card qr">
+        <h3>LINEでお問い合わせ</h3>
+        <img class="qr-code" src="https://qr-official.line.me/gs/M_070jcaxt_GW.png?oat_content=qr" alt="さくらデザイン LINE公式アカウント QRコード">
+        <small>QRコードを読み取って友だち追加</small>
+        <a class="line-btn" href="https://lin.ee/VXOsfgn" target="_blank" rel="noopener">
+          <img src="https://scdn.line-apps.com/n/line_add_friends/btn/ja.png" alt="友だち追加" height="36" border="0">
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
 
 </main>
 
